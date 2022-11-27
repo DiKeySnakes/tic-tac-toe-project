@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap"
+      rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/63a987d3b1.js"
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <p>Tic-Tac-Toe</p>
+      </div>
+      <div id="game">
+        <div class="grid-cell" data-value="0"></div>
+        <div class="grid-cell" data-value="1"></div>
+        <div class="grid-cell" data-value="2"></div>
+        <div class="grid-cell" data-value="3"></div>
+        <div class="grid-cell" data-value="4"></div>
+        <div class="grid-cell" data-value="5"></div>
+        <div class="grid-cell" data-value="6"></div>
+        <div class="grid-cell" data-value="7"></div>
+        <div class="grid-cell" data-value="8"></div>
+      </div>
+      <div class="game-over">
+        <p class="game-over-text"></p>
+        <button class="restart">Restart</button>
+      </div>
+      <div id="footer">
+        <footer>
+          <p>
+            Created by DiKeySnakes for
+            <a href="https://theodinproject.com/" target="_blank"
+              >The Odin Project</a
+            >
+            curriculum
+          </p>
+          <p>
+            Copyright &copy; DiKeySnakes 2022
+            <a
+              href="https://github.com/DiKeySnakes/tic-tac-toe-project"
+              target="_blank"
+              ><i id="icon" class="fa-brands fa-github"></i
+            ></a>
+          </p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
